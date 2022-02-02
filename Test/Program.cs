@@ -242,10 +242,7 @@ namespace SAS_Schleifen
 
             for (int i = 0; i < n;i++)
             {
-
-                int anzleer = n - i;
-
-                    for(int q = 1; q<=anzleer;q++)
+                    for(int q = 1; q<=n-i;q++)
                 {
 
                     Console.Write(" ");
@@ -260,9 +257,6 @@ namespace SAS_Schleifen
                 }
 
                 Console.Write("\n");
-
-
-
             }
                 
 
