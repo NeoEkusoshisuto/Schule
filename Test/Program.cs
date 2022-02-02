@@ -237,7 +237,7 @@ namespace SAS_Schleifen
         static void Aufgabe_10()
         {
 
-            Console.WriteLine("Bitte gebn sie die Länge des Baumes an.");
+            Console.WriteLine("Bitte geben sie die Länge des Baumes an.");
             int n = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 0; i < n;i++)
