@@ -118,7 +118,7 @@ namespace SAS_Schleifen
             for (int i = 100; i >= 10; i = i-10)
             {
 
-                Console.Write(i);
+                Console.Write("{0},",i);
 
             }
 
@@ -128,14 +128,15 @@ namespace SAS_Schleifen
         #region Aufgabe 5
         static void Aufgabe_5()
         {
-            int i = 0, n = i * -1;
+            int i = 0, n = 0;
 
             Console.WriteLine("Geben sie bitte eine Zahl ein.");
-       
-            for (i = Convert.ToInt32(Console.ReadLine()); n <= i; n = n + 2)
+            i = Convert.ToInt32(Console.ReadLine());
+            n = i * -1;
+            for (; n <= i; n = n + 2)
             {
 
-                Console.Write(n);
+                Console.Write("{0},",n);
 
             }
 
@@ -221,7 +222,7 @@ namespace SAS_Schleifen
             p = Convert.ToDouble(Console.ReadLine());
             p = p / 100;
 
-            for (; s <= k;)
+            for (; s < k;)
             {
                 s = s + (k * p);
                 jahre++;
