@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BFT Multitool Features", "BFT Multitool Features\BFT Multitool Features.csproj", "{89C370FB-03C5-4BF4-B5A6-929F5F35A904}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTool", "..\..\BFTMultiTool-main\BFTMultiTool-main\MultiTool\MultiTool.csproj", "{CF7E6907-87A9-403B-B7D7-85D68E6046C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BFT Multitool", "BFT Multitool", "{87740737-4754-4D44-9FF2-5B29E8D9AC2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KonsolenExtrasBibliothek", "..\..\BFTMultiTool-main\BFTMultiTool-main\KonsolenExtrasBibliothek\KonsolenExtrasBibliothek.csproj", "{5C26BC1F-8427-4EDA-A582-3F8153719A11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETMultiToolKlassenBibliothek", "..\..\BFTMultiTool-main\BFTMultiTool-main\ETMultiToolKlassenBibliothek\ETMultiToolKlassenBibliothek.csproj", "{3048DE2B-FEEA-4E7B-914F-C4AC1686DB97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiToolKlassenBibliothek", "..\..\BFTMultiTool-main\BFTMultiTool-main\MultiToolKlassenBibliothek\MultiToolKlassenBibliothek.csproj", "{2DF00A36-D000-46EA-8A52-36A0A4F1A633}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89C370FB-03C5-4BF4-B5A6-929F5F35A904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C370FB-03C5-4BF4-B5A6-929F5F35A904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C370FB-03C5-4BF4-B5A6-929F5F35A904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C370FB-03C5-4BF4-B5A6-929F5F35A904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7E6907-87A9-403B-B7D7-85D68E6046C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7E6907-87A9-403B-B7D7-85D68E6046C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7E6907-87A9-403B-B7D7-85D68E6046C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7E6907-87A9-403B-B7D7-85D68E6046C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C26BC1F-8427-4EDA-A582-3F8153719A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C26BC1F-8427-4EDA-A582-3F8153719A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C26BC1F-8427-4EDA-A582-3F8153719A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C26BC1F-8427-4EDA-A582-3F8153719A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3048DE2B-FEEA-4E7B-914F-C4AC1686DB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3048DE2B-FEEA-4E7B-914F-C4AC1686DB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3048DE2B-FEEA-4E7B-914F-C4AC1686DB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3048DE2B-FEEA-4E7B-914F-C4AC1686DB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF00A36-D000-46EA-8A52-36A0A4F1A633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF00A36-D000-46EA-8A52-36A0A4F1A633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF00A36-D000-46EA-8A52-36A0A4F1A633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF00A36-D000-46EA-8A52-36A0A4F1A633}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF7E6907-87A9-403B-B7D7-85D68E6046C3} = {87740737-4754-4D44-9FF2-5B29E8D9AC2D}
+		{5C26BC1F-8427-4EDA-A582-3F8153719A11} = {87740737-4754-4D44-9FF2-5B29E8D9AC2D}
+		{3048DE2B-FEEA-4E7B-914F-C4AC1686DB97} = {87740737-4754-4D44-9FF2-5B29E8D9AC2D}
+		{2DF00A36-D000-46EA-8A52-36A0A4F1A633} = {87740737-4754-4D44-9FF2-5B29E8D9AC2D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A4AD212-B952-4E4B-A1E4-B46150A31250}
+	EndGlobalSection
+EndGlobal
