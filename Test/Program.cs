@@ -222,9 +222,9 @@ namespace SAS_Schleifen
             p = Convert.ToDouble(Console.ReadLine());
             p = p / 100;
 
-            for (; s < k;)
+            for (s = 0 + k; s < k*2;)
             {
-                s = s + (k * p);
+                s = s + (s * p);
                 jahre++;
 
             }
