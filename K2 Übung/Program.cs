@@ -7,7 +7,7 @@ namespace K2_Übung
         static void Main(string[] args)
         {
             double k = 0, p = 0,j = 0,b = 0,kz = 0;
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
+             
 
             Console.Write("Geben sie bitte ihr Kapital ein:\n");
             k = Convert.ToDouble(Console.ReadLine());
@@ -48,6 +48,12 @@ namespace K2_Übung
                 Console.WriteLine("{0,3}| {1,9:F2,C}| {2,6:F2,C}| {3,8:F2,C}| {4,6:F2,C}", Jahr, k, k * (p/100), kz,b);
                 k = k + (k * (p / 100));
             }
+        }
+        static void Klausurübung_2()
+        {
+             
+
+
         }
     }
 }
