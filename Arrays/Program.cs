@@ -6,14 +6,17 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            int note = 0,durchschnitt = 0;
+            int note = 0, durchschnitt = 0, schüler = 0;
             string name = null;
 
-            string[] namen = new string[20];
+            Console.WriteLine("Wie viele Schüler sind in ihrer Klasse?");
+            schüler = Convert.ToInt32(Console.ReadLine());
 
-            int[] noten = new int[20];
+            string[] namen = new string[schüler];
 
-            for (int i = 0; i < 20; i++)
+            int[] noten = new int[schüler];
+
+            for (int i = 0; i < schüler; i++)
             {
                 Console.WriteLine("Bitte geben sie den Namen des Schülers ein:");
                 name = Console.ReadLine();
@@ -30,14 +33,15 @@ namespace Arrays
                 Console.Clear();
             }
 
-            for (int i = 0; i<20;i++)
+            for (int i = 0; i < schüler; i++)
             {
-                Console.Write(namen[i]+":");
+                Console.Write(namen[i] + ":");
                 Console.Write(noten[i]);
                 Console.WriteLine();
             }
 
-            Console.WriteLine("\nDer Notendurchschnitt ist: {0}", durchschnitt/20);
+            Console.WriteLine("\nDer Notendurchschnitt ist: {0}", durchschnitt / schüler);
+            Console.WriteLine("Der Notendurchschnitt stellt sich zusammen aus den Noten von {0} Schülern", namen.Length);
         }
     }
 }
