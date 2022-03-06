@@ -49,11 +49,6 @@ namespace K2_Übung
                 k = k + (k * (p / 100));
             }
         }
-        static void Klausurübung_2()
-        {
-             
-
-
-        }
+        
     }
 }

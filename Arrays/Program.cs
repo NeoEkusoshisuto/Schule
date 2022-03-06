@@ -6,12 +6,13 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            int note = 0, durchschnitt = 0, schüler = 0;
-            string name = null;
+            int note, schüler;
+            double notensumme = 0;
+            string name;
 
             Console.WriteLine("Wie viele Schüler sind in ihrer Klasse?");
             schüler = Convert.ToInt32(Console.ReadLine());
-
+            Console.Clear();
             string[] namen = new string[schüler];
 
             int[] noten = new int[schüler];
@@ -23,25 +24,23 @@ namespace Arrays
 
                 namen[i] = name;
 
-                Console.WriteLine("Bitte geben sie die Note des Schülers ein:");
+                Console.WriteLine($"Bitte geben sie die Note von {name} ein:");
                 note = Convert.ToInt32(Console.ReadLine());
 
                 noten[i] = note;
 
-                durchschnitt = durchschnitt + note;
+                notensumme = notensumme + note;
 
                 Console.Clear();
             }
 
             for (int i = 0; i < schüler; i++)
             {
-                Console.Write(namen[i] + ":");
-                Console.Write(noten[i]);
-                Console.WriteLine();
+                Console.WriteLine(namen[i] + ":" + noten[i]); 
             }
 
-            Console.WriteLine("\nDer Notendurchschnitt ist: {0}", durchschnitt / schüler);
-            Console.WriteLine("Der Notendurchschnitt stellt sich zusammen aus den Noten von {0} Schülern", namen.Length);
+            Console.WriteLine($"\nDer Notendurchschnitt ist: {notensumme / schüler:F2}");
+            Console.WriteLine($"Der Notendurchschnitt stellt sich zusammen aus den Noten von {namen.Length} Schülern");
         }
     }
 }

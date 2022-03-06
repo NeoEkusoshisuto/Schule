@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAS Schleifen", "Test\SAS S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K2 Übung", "K2 Übung\K2 Übung.csproj", "{528EC964-D284-4D9A-8B6C-4955926E8555}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{56CA2A12-2CA8-4B51-A012-BAAEA1729BED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{56CA2A12-2CA8-4B51-A012-BAAEA1729BED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
