@@ -6,9 +6,8 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            int note, schüler;
+            int schüler;
             double notensumme = 0;
-            string name;
 
             Console.WriteLine("Wie viele Schüler sind in ihrer Klasse?");
             schüler = Convert.ToInt32(Console.ReadLine());
@@ -20,16 +19,12 @@ namespace Arrays
             for (int i = 0; i < schüler; i++)
             {
                 Console.WriteLine("Bitte geben sie den Namen des Schülers ein:");
-                name = Console.ReadLine();
+                namen[i] = Console.ReadLine();
 
-                namen[i] = name;
+                Console.WriteLine($"Bitte geben sie die Note von {namen[i]} ein:");
+                noten[i] = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine($"Bitte geben sie die Note von {name} ein:");
-                note = Convert.ToInt32(Console.ReadLine());
-
-                noten[i] = note;
-
-                notensumme = notensumme + note;
+                notensumme = notensumme + noten[i];
 
                 Console.Clear();
             }
