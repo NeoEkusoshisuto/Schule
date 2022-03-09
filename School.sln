@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAS Schleifen", "Schleifen\SAS Schleifen.csproj", "{8A9C012A-F0D4-4225-BBAF-43E40EBB901F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Schleifen\SAS Schleifen.csproj", "{8A9C012A-F0D4-4225-BBAF-43E40EBB901F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K2 Übung", "K2 Übung\K2 Übung.csproj", "{528EC964-D284-4D9A-8B6C-4955926E8555}"
 EndProject
