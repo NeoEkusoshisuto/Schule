@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K2 Übung", "K2 Übung\K2 �
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{56CA2A12-2CA8-4B51-A012-BAAEA1729BED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multidimensionale_Arrays", "Multidimensionale_Arrays\Multidimensionale_Arrays.csproj", "{C91E2CA9-41E3-47D4-A23C-230196EB5923}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multidimensionale_Arrays", "Multidimensionale_Arrays\Multidimensionale_Arrays.csproj", "{C91E2CA9-41E3-47D4-A23C-230196EB5923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bubblesort", "Bubblesort\Bubblesort.csproj", "{B239F688-5A03-42A2-97FA-16A74C51CAB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C91E2CA9-41E3-47D4-A23C-230196EB5923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C91E2CA9-41E3-47D4-A23C-230196EB5923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C91E2CA9-41E3-47D4-A23C-230196EB5923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B239F688-5A03-42A2-97FA-16A74C51CAB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B239F688-5A03-42A2-97FA-16A74C51CAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B239F688-5A03-42A2-97FA-16A74C51CAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B239F688-5A03-42A2-97FA-16A74C51CAB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
