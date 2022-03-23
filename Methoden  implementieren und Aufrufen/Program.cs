@@ -21,14 +21,16 @@ namespace Methoden__implementieren_und_Aufrufen
             string text = Console.ReadLine();
             
             Console.WriteLine("Wie oft soll der Text ausgegeben werden?");
-            int wiederholungen = Convert.ToInt32(Console.ReadLine());
+            string wiederholungen = Console.ReadLine();
+            int wiederholungen_int = 0;
+            bool success = int.TryParse(wiederholungen, out wiederholungen_int);
 
-            for (int i=0;i<wiederholungen;i++)
+            for (int i=0;i<wiederholungen_int;i++)
             {
                 Console.WriteLine(text);
             }
 
-            int buchstaben = text.Length * wiederholungen;
+            int buchstaben = text.Length * wiederholungen_int;
 
             return buchstaben;
         }
