@@ -15,8 +15,6 @@ namespace Methoden__implementieren_und_Aufrufen
         
         public static int ausgabeTextMalX()
         {
-            
-
             Console.WriteLine("Welchen Text wollen sie ausgeben lassen?");
             string text = Console.ReadLine();
             
@@ -24,11 +22,13 @@ namespace Methoden__implementieren_und_Aufrufen
             string wiederholungen = Console.ReadLine();
             int wiederholungen_int = 0;
             bool success = int.TryParse(wiederholungen, out wiederholungen_int);
+            Console.Clear();
 
             for (int i=0;i<wiederholungen_int;i++)
             {
                 Console.WriteLine(text);
             }
+            Console.WriteLine();
 
             int buchstaben = text.Length * wiederholungen_int;
 

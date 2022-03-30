@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multidimensionale_Arrays", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bubblesort", "Bubblesort\Bubblesort.csproj", "{B239F688-5A03-42A2-97FA-16A74C51CAB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methoden  implementieren und Aufrufen", "Methoden  implementieren und Aufrufen\Methoden  implementieren und Aufrufen.csproj", "{94B9CD04-0D4E-4E54-849B-D1948D22A901}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methoden  implementieren und Aufrufen", "Methoden  implementieren und Aufrufen\Methoden  implementieren und Aufrufen.csproj", "{94B9CD04-0D4E-4E54-849B-D1948D22A901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methoden - Hotel Check In App", "Methoden - Hotel Check In App\Methoden - Hotel Check In App.csproj", "{0DF64C5D-F185-4813-9309-AEB9A8156BCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{94B9CD04-0D4E-4E54-849B-D1948D22A901}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94B9CD04-0D4E-4E54-849B-D1948D22A901}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94B9CD04-0D4E-4E54-849B-D1948D22A901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF64C5D-F185-4813-9309-AEB9A8156BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF64C5D-F185-4813-9309-AEB9A8156BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF64C5D-F185-4813-9309-AEB9A8156BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF64C5D-F185-4813-9309-AEB9A8156BCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
